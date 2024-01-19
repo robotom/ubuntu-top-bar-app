@@ -1,0 +1,6 @@
+{
+    "uuid": "info-app@robotom",
+    "name": "Info App",
+    "description": "Displays 'robotom's PC!' on the top bar",
+    "shell-version": ["3.36", "3.38", "40", "41", "42"]
+}

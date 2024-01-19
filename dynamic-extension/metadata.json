@@ -1,0 +1,6 @@
+{
+    "uuid": "ip-app@robotom",
+    "name": "IP App",
+    "description": "Displays the current public IP address on the top bar",
+    "shell-version": ["3.36", "3.38", "40", "41", "42"]
+}
