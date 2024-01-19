@@ -13,16 +13,18 @@ I thought maybe I could just overlay the particular computer name on top of the 
 
 There are two extension types in the repo: 
 
-- One that displays static info, e.g. strings in `/static-extension/extension.js`. 
-- Another that displays dynamic info, e.g. time, dates, weather, IP's (in my case), etc. in `/dynamic-extension/extension.js`.  
+- One that displays static info, e.g. strings in `/info-app/extension.js`. 
+- Another that displays dynamic info, e.g. time, dates, weather, IP's (in my case), etc. in `/ip-app/extension.js`.  
 
 ### Instructions: 
 
 #### Create extension directory 
 
-Each GNOME extension needs its own directory. The name of the directory must be the UUID (unique identifier) of the extension. The format is `unique-identifier@yourusername`. In my case, info-app@robotom. Make sure you adjust this for your usernmame and app name.  
+Each GNOME extension needs its own directory. The name of the directory must be the UUID (unique identifier) of the extension. The format is `unique-identifier@yourusername`. In my case, info-app@robotom or ip-app@robotom. Make sure you adjust this for your usernmame and app name.
 
-Run: `mkdir -p ~/.local/share/gnome-shell/extensions/info-app@yourusername`
+For "info-app", run: `mkdir -p ~/.local/share/gnome-shell/extensions/info-app@yourusername`
+
+You can create multiple if you wish in /extensions. 
 
 #### metadata.json
 
