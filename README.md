@@ -1,15 +1,20 @@
 # Ubuntu Top Bar Information App
 
-I originally came up with this because I had a few different computers tied to one monitor via a multi-way HDMI switch and it was becoming challenging to differentiate which computer was being displayed. 
 
-I thought maybe I could just overlay it on top of the wallpaper using a paint app but this isn't a great solution if you want to display dynamic information (like an IP address). 
+<p align="center">    <img src="other/ubuntu-bar-apps.png" alt="Ubuntu Top Bar Apps" width="400">
+</p>
+
+
+The reason I came up with this was because I had a few different computers tied to one monitor via a multi-way HDMI switch and it was becoming challenging to differentiate which computer was being displayed as I constantly switched back and forth between them. 
+
+I thought maybe I could just overlay the particular computer name on top of the wallpaper using a paint app but this isn't a great solution if you want to display dynamic information (like an IP address). 
 
 **Solution:** Make a GNOME extension that lives on the top cross bar next to the wifi, battery, etc. icons. 
 
 There are two extension types in the repo: 
 
 - One that displays static info, e.g. strings in `/static-extension/extension.js`. 
-- Another that displays dynamic info, e.g. time, dates, weather, IP's (in this case), etc. in `/dynamic-extension/extension.js`.  
+- Another that displays dynamic info, e.g. time, dates, weather, IP's (in my case), etc. in `/dynamic-extension/extension.js`.  
 
 ### Instructions: 
 
@@ -39,8 +44,9 @@ Then, enable via terminal: `gnome-extensions enable info-app@yourusername`. It s
 
 ### More Info 
 
-The GNOME extension will run automaticaly at boot after you enable it. To disable it you can run `gnome-extensions disable info-app@yourusername`. To completely remove it after that you can just delete the directory you created earlier. 
+The GNOME extension will run automaticaly at boot after you enable it. To disable it you can run `gnome-extensions disable info-app@yourusername`. To completely remove it after disabling, you can just delete the directory you created earlier. 
 
 **--------------------------------------------**
+
 *All code was tested on Ubuntu 20 and 22.*
 
